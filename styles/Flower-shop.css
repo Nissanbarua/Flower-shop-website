@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* shared styles */
+body{
+    font-family: "Lato", sans-serif;
+}
+.primary-btn{
+    border-radius: 8px;
+background: rgb(229, 84, 115);
+padding: 0.6rem 1.5rem 0.6rem 1.5rem;
+}
+
+/* header related styles */
+.hero-container{
+    width: 100%;
+    display: flex;
+}
+.hero-content{
+    margin-left: 10%;
+    text-align: left;
+}
+.hero-content h1{
+    font-size: 4rem;
+    font-weight: 800;
+    color: rgb(39, 39, 39);
+}
+.hero-content p{
+    font-size: 1rem;
+    color: rgba(39, 39, 39, 0.6);
+}
+.hero-bg{
+    margin-right: 10%;
+}
+.hero-bg img{
+    width: 100%;
+}
+
